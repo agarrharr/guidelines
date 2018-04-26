@@ -1,5 +1,7 @@
 # C++ Guidelines
 
+![cpp logo](https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png)
+
 ## Learning Resources
 
 - [cplusplusnet](http://www.cplusplus.com/doc/tutorial/)

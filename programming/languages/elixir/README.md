@@ -1,5 +1,7 @@
 # Elixir guidelines
 
+![Elixir Logo](https://avatars3.githubusercontent.com/u/1481354?s=280&v=4)
+
 ## How to start
 
 The Elixir official site has a
@@ -53,7 +55,7 @@ the [main site](https://elixir-lang.org) (right side)
 - [ElixirWeekly](https://elixirweekly.net/) - The Elixir
   community newsletter, covering stuff you easily miss,
   shared on [ElixirStatus](http://elixirstatus.com/) and the web.
-- [ElixirSlack](https://elixir-slackin.herokuapp.com/) Elixir 
+- [ElixirSlack](https://elixir-slackin.herokuapp.com/) Elixir
   Slack Community.
 
 ## Resources

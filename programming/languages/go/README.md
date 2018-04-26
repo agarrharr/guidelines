@@ -1,12 +1,19 @@
 # Go Guidelines
 
-## Learning resources
+![Go lang](https://golang.org/doc/gopher/appenginegophercolor.jpg)
+
+## How to start
+
+Just go to the official [site](https://golang.org/). They have
+a nice REPL environment to try the language
+
+### Learning resources
 
 * [Pluralsight](https://www.pluralsight.com/search?q=golang&categories=all)
 * [Go lang tutorial](https://golangbot.com/page/2/)
 * [https://github.com/golang/go/wiki/Learn](https://github.com/golang/go/wiki/Learn)
 
-## Required development tools
+### IDEs and Recommended tools
 
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports)
 * [golint](https://github.com/golang/lint)
@@ -14,169 +21,40 @@
    previous tools and run them asynchronously
 * [gofmt](https://golang.org/cmd/gofmt/) with the ``-s`` option to simplify code
 
-Integrate those tools with your own editor.
+### Setup
+
+The official site has a [good guide](https://golang.org/doc/install)
+documenting how to install the tools.
 
 ## Coding Style
 
-### Types
+Follow this [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 
-Types should be explicit as much as possible:
+### Linters
 
-* Avoid `interface{}` type.
-* Don't be shy and/or skinflint about interface.
-* Visitor pattern is your best-friend if you can't use an interface, in order
-  to avoid `interface{}` type.
+We recommend the following tools 
 
-Use generic litterals _(`int`, `float`, etc...)_ **unless you are defining a
- model**, which should follow these conventions:
+* [golint](https://github.com/golang/lint)
+* [gofmt](https://golang.org/cmd/gofmt/) with the ``-s`` option to simplify code
+* [gometalinter](https://github.com/alecthomas/gometalinter) 
+  which includes previous tools and run them asynchronously
 
-* Use `int64` type for primary, foreign key and counter.
-* Use `Enumerated` type for enumeration.
+## Stay Updated
 
-```go
-// Foobar is ...
-type Foobar struct {
-    ID        int64 `db:"id"`
-    UserID    int64 `db:"user_id"`
-    AccountID int64 `db:"account_id"`
-    HitCount  int64 `db:"hit_count"`
-    MissCount int64 `db:"miss_count"`
-    Status    Enumerated `db:"status"`
-    Type      Enumerated `db:"type"`
-}
-```
+* [@golang](https://twitter.com/golang)
+* [@golang_news](https://twitter.com/golang_news)
+* [@golangflow](https://twitter.com/golangflow)
+* [@golangweekly](https://twitter.com/golangweekly)
+* [Go Blog](http://blog.golang.org/): The official Go blog.
+* [Golang Flow](https://golangflow.io/): Post Updates, News, Packages and more.
+* [Golang News](https://golangnews.com/): Links and news about Go programming.
+* [r/Golang](https://www.reddit.com/r/golang): News about Go.
+* [Trending Go repositories on GitHub today](https://github.com/trending?l=go):
+  Good place to find new Go libraries.
 
-### Naming convention
+## Recommendations
 
-```go
-type Category struct{}
-type Media struct{}
-
-// slices
-mediaList := []Media{}
-categories := []Category{}
-
-// maps
-categoriesByID := map[int][]Category{}
-mediaListByID := map[int][]Media{}
-categoryByID := map[int]Category{}
-```
-
-### Context
-
-``context.Context`` should be immutable, don't rely on ``context.Background()`` only to initialize it.
-
-If your context is global don't store too much things in it, keep it simple:
-
-* connection pool (redis, postgresql, rabbitmq, etc.)
-* configuration
-
-For the request context include all keys from the application context and add it request information:
-
-* user
-* resource for the dedicated endpoint
-* user lang
-
-### Error handling
-
-If your method can fail, you need to propagate the error to the root level.
-
-You need to [wrap](https://github.com/pkg/errors) the error and add context.
-
-Always set a recover behavior.
-
-panic/recover is meant for exceptions not common errors.
-
-Always check for errors.
-
-```go
-// bad
-foo()
-val, _ := foo()
-
-// good
-_, err := foo()
-val, err := foo()
-```
-
-Group your logic when checking an error.
-
-```go
-// bad
-result, err := thisMethodWillFail()
-
-if err != nil {
-  return err
-}
-
-// bad
-if err := thisMethodWillFail(); err != nil {
-    return err
-}
-
-// good
-result, err := thisMethodWillFail()
-if err != nil {
-  return err
-}
-```
-
-## Project architecture
-
-This is an initial draft:
-
-```bash
-/application
-    /commands
-/configuration
-    configuration.go
-/constants
-    constants.go
-/events
-    users.go
-/gimme
-    store.go
-/failures
-    errors.go
-    handlers.go
-/managers
-    users.go
-    users_test.go
-/models
-    user.go
-        user_test.go
-/payments
-    /backends
-/store
-        users.go
-        users_queries.go
-/rpc
-    /validators
-    user.go
-    /payloads
-    user.go
-    /resources
-    user.go
-/tasks
-    users.go
-/web
-    /authentication
-    facebook.go
-    ulule.go
-    /handlers
-    permissions.go
-    resources.go
-    users.go
-    /middleware
-    authentication.go
-    router.go
-    server.go
-/worker
-    /handlers
-    users.go
-    worker.go
-```
-
-## References
-
-* [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+* [Effective Go](https://golang.org/doc/effective_go.html#introduction)
+* [Awesome Go](https://awesome-go.com/): A curated list of 
+  awesome Go frameworks, libraries and software
+  

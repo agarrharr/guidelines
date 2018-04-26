@@ -1,5 +1,7 @@
 # C# guidelines
 
+![c# unofficial logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/464px-C_Sharp_wordmark.svg.png)
+
 ## How to Start
 
 - [C# Quickstarts](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/)
