@@ -32,11 +32,11 @@ Follow this [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewC
 
 ### Linters
 
-We recommend the following tools 
+We recommend the following tools:
 
 * [golint](https://github.com/golang/lint)
 * [gofmt](https://golang.org/cmd/gofmt/) with the ``-s`` option to simplify code
-* [gometalinter](https://github.com/alecthomas/gometalinter) 
+* [gometalinter](https://github.com/alecthomas/gometalinter)
   which includes previous tools and run them asynchronously
 
 ## Stay Updated
@@ -55,6 +55,6 @@ We recommend the following tools
 ## Recommendations
 
 * [Effective Go](https://golang.org/doc/effective_go.html#introduction)
-* [Awesome Go](https://awesome-go.com/): A curated list of 
+* [Awesome Go](https://awesome-go.com/): A curated list of
   awesome Go frameworks, libraries and software
   

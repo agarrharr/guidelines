@@ -12,9 +12,10 @@ We like to use [ktlint](https://github.com/shyiko/ktlint) for this task.
 
 Please refer to the [Android guidelines](../../frameworks-and-libraries/android) to learn more.
 
-# Learning Resources
+## Learning Resources
 
-## Pluralsight
+### Pluralsight
+
 - [Getting Started with Kotlin](https://www.pluralsight.com/courses/kotlin-getting-started)
 - [Kotlin Fundamentals](https://www.pluralsight.com/courses/kotlin-fundamentals)
 - [Switch to Kotlin from Java for Android Development](https://www.pluralsight.com/courses/android-development-kotlin-from-java)
