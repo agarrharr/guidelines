@@ -1,8 +1,20 @@
 # Python Guidelines
 
-## Learning Resources
+![Python logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
+
+## How to Start
+
+### Learning Resources
 
 - [Learn python](https://www.learnpython.org/)
+
+### Setup
+
+- If you use OSX, follow this [guide](http://docs.python-guide.org/en/latest/starting/install3/osx/)
+- If you use a Linux based distribution, you can follow the steps in this
+  [page](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
+- Lastly, if you use Windows you can download an installer from the official
+  [downloads](https://www.python.org/downloads/windows/) page.
 
 ## Coding Style
 
@@ -13,22 +25,6 @@
   text editor with EditorConfig support to avoid indentation and whitespace issues.
 - Follow [PEP8](https://www.python.org/dev/peps/pep-0008/).
 - In docstrings, follow [PEP 257](https://www.python.org/dev/peps/pep-0257/).
-
-### Naming Conventions
-
-|Type                               |Public                    |Internal|
-|-----------------------------------|--------------------------|--------|
-|Packages                           |lower\_with\_under        ||
-|Modules                            |lower\_with\_under        |\_lower\_with\_under|
-|Classes                            |CapWords                  |\_CapWords|
-|Exceptions                         |CapWords                  ||
-|Functions                          |lower\_with\_under()      |\_lower\_with\_under()|
-|Global/Class Constants             |CAPS\_WITH\_UNDER         |\_CAPS\_WITH\_UNDER|
-|Global/Class Variables             |lower\_with\_under        |\_lower\_with\_under|
-|Instance Variables                 |lower\_with\_under        |\_lower\_with\_under (protected) or \_\_lower\_with\_under (private)|
-|Method Names                       |lower\_with\_under()      |\_lower\_with\_under() (protected) or \_\_lower\_with\_under() (private)|
-|Function/Method Parameters         |lower\_with\_under        ||
-|Local Variables                    |lower\_with\_under        ||
 
 ## Linting
 
@@ -42,6 +38,10 @@
   - flake8-debugger (`pdb/ipdb` traces)
 
 - [pylint](https://www.pylint.org/)
+
+## IDEs
+
+- [Pycharm](https://www.jetbrains.com/pycharm/)
 
 ## Resources
 
