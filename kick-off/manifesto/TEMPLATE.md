@@ -72,8 +72,6 @@ Run `npm run test` to run the tests along with a coverage report.
 The project uses Git as the version control system and GitHub/GitLab for development platform
 following the Git Flow’s branching model.
 
-An up-to-date changelog can be found [here](./CHANGELOG.md).
-
 ### Portability
 
 In order to improve the project’s portability it is using Docker and Docker Compose as the
@@ -84,10 +82,10 @@ containerization solution.
 GitLab CI/Jenkins is used as the continuous integration system.
 CI is configured for every environment such as dev, RC, and prod.
 
-- The development server can be found [here](https://<subdomain>.sophilabs.me)
-- The RC server can be found [here](https://<subdomain>.sophilabs.me)
-- CI dashboard can be found [here](https://<subdomain>.sophilabs.me)
-- Full deployment process and tools documentation can be found [here](DEPLOYMENT.md)
+-   The development server can be found [here](https://subdomain.sophilabs.me/)
+-   The RC server can be found [here](https://subdomain.sophilabs.me/)
+-   CI dashboard can be found [here](https://subdomain.sophilabs.me/)
+-   Full deployment process and tools documentation can be found [here](https://reference-to-deployment-file.sophilabs.me/)
 
 CI notifications are configured to send build statuses via Slack/email.
 
@@ -95,7 +93,7 @@ CI notifications are configured to send build statuses via Slack/email.
 
 Database backups are automatically created every <days> days.
 
-The project can be automatically downgraded. The rollback plan can be found [here](DEPLOYMENT.md).
+The project can be automatically downgraded. The rollback plan can be found [here](https://reference-to-deployment-file.sophilabs.me/).
 
 To prevent server downtime the project is using Docker Swarm for deployment.
 
@@ -107,27 +105,27 @@ another tool.
 ## Branching and code review
 
 We work in separate branch for each issue using the [Git Flow](https://github.com/nvie/gitflow)
-branching model and send a *Merge Request* to the `dev` branch in order for a teammate to review
+branching model and send a _Merge Request_ to the `dev` branch in order for a teammate to review
 your code and merge it or request changes. Describe the naming convention for branches like:
 
-- 1234: Feature description.
+-   1234: Feature description.
 
 ### Code Review
 
 Describe your code review process here, if you have any. An example could be dhe following one.
 Refer to the Playbook for code review guidelines.
 
-1. Make commit to your repository.
-2. A developer downloads your code and test it.
-3. After the review is done, we merge the code to dev.
+1.  Make commit to your repository.
+2.  A developer downloads your code and test it.
+3.  After the review is done, we merge the code to dev.
 
 ## Dependency management
 
 In case you have to add dependencies to the project,
 
-- **Python:** We have three `.pip` files located in
-  `setup/some_project/containers/django/requirements/`. One for `development`, one for `production`
-  and a `base` one which is inherited by the other ones.
-- **JavaScript:** We have a common `package.json` file. If you use `yarn` instead of `npm`, please
-  make sure you **do** commit the `yarn.lock` file.
-- **Elixir:** We use mix, and hex for dependency management.
+-   **Python:** We have three `.pip` files located in
+    `setup/some_project/containers/django/requirements/`. One for `development`, one for `production`
+    and a `base` one which is inherited by the other ones.
+-   **JavaScript:** We have a common `package.json` file. If you use `yarn` instead of `npm`, please
+    make sure you **do** commit the `yarn.lock` file.
+-   **Elixir:** We use mix, and hex for dependency management.
