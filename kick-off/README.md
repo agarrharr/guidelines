@@ -13,7 +13,7 @@ set up the project, run it, run tests, etc.
 
 ### How to implement a manifesto in my project
 
-Just download the following [template](./TEMPLATE.md) file and adapt it to your project.
+Just download the following [template](./manifesto/TEMPLATE.md) file and adapt it to your project.
 
 ## Development workflow guidelines
 
@@ -29,9 +29,9 @@ new features, configuration changes, bug fixes and experiments) into production,
 or into the hands of users, safely and quickly in a sustainable way. We
 recommend every project to set up a CI.
 
-* Prefer the CI tool to be owned by the client itself.
-* If your client doesn't provide a CI tool, you can use Sophilabs's own
-  [Jenkins CI](https://ci.sophilabs.io/).
+-   Prefer the CI tool to be owned by the client itself.
+-   If your client doesn't provide a CI tool, you can use Sophilabs's own
+    [Jenkins CI](https://ci.sophilabs.io/).
 
 ## Docker
 
@@ -51,40 +51,40 @@ If just got a new MacBook, you should set up it correctly. This
 list covers the bare minimum requirements for developing a web
 application in a macOS based system.
 
-1. Install [Slack](https://slack.com/downloads/osx) and [sign
-   up](https://sophilabs.slack.com/) with your sophilabs email address.
-2. Install the [Homebrew](https://brew.sh/) package manager for
-   installing applications or utilities.
-3. macOS only comes with Python 2 installed. Install the latest Python
-   3 release from the
-   [website](https://www.python.org/downloads/mac-osx/).
-4. Avoid installing Python packages at the system level, use virtual
-   environments instead. See
-   [here](https://docs.python.org/3/tutorial/venv.html#introduction)
-   why this is the recommended approach. There are several options for
-   creating/managing virtual environments, we recommend
-   [pyenv](https://github.com/pyenv/pyenv).
-5. Feel free to install and use your favorite text editor or IDE. If
-   you don't have one, we recommend PyCharm to get started.
-6. Install the latest LTS version of [Node.js](https://nodejs.org/en/)
-   if you're going to work with JavaScript.
-7. Install [Docker for
-   Mac](https://docs.docker.com/docker-for-mac/install), use the edge
-   version if you need better integration with docker cloud.
-8. Setup a pair of ssh keys with your sophilabs email address. You can
-   follow [this
-   guide](https://help.github.com/articles/connecting-to-github-with-ssh/)
-   if you're not sure how to do it. You will use these keys to push
-   content to our Gitlab server or Github repositories, and also for
-   accessing any remote server you need to access when working on a
-   project.
+1.  Install [Slack](https://slack.com/downloads/osx) and [sign
+    up](https://sophilabs.slack.com/) with your sophilabs email address.
+2.  Install the [Homebrew](https://brew.sh/) package manager for
+    installing applications or utilities.
+3.  macOS only comes with Python 2 installed. Install the latest Python
+    3 release from the
+    [website](https://www.python.org/downloads/mac-osx/).
+4.  Avoid installing Python packages at the system level, use virtual
+    environments instead. See
+    [here](https://docs.python.org/3/tutorial/venv.html#introduction)
+    why this is the recommended approach. There are several options for
+    creating/managing virtual environments, we recommend
+    [pyenv](https://github.com/pyenv/pyenv).
+5.  Feel free to install and use your favorite text editor or IDE. If
+    you don't have one, we recommend PyCharm to get started.
+6.  Install the latest LTS version of [Node.js](https://nodejs.org/en/)
+    if you're going to work with JavaScript.
+7.  Install [Docker for
+    Mac](https://docs.docker.com/docker-for-mac/install), use the edge
+    version if you need better integration with docker cloud.
+8.  Setup a pair of ssh keys with your sophilabs email address. You can
+    follow [this
+    guide](https://help.github.com/articles/connecting-to-github-with-ssh/)
+    if you're not sure how to do it. You will use these keys to push
+    content to our Gitlab server or Github repositories, and also for
+    accessing any remote server you need to access when working on a
+    project.
 
 ## Project bootstrapping
 
 ### Project directory structure
 
-* A project divided into different git repos is hard to maintain,
-  avoid it.
+-   A project divided into different git repos is hard to maintain,
+    avoid it.
 
 ### Docker
 
@@ -126,5 +126,5 @@ You can run linters, check commit messages and more with Gilp and Gulp.
 
 ## References
 
-1. [Try Git](https://try.github.io/)
-2. [Pro Git](https://git-scm.com/book/)
+1.  [Try Git](https://try.github.io/)
+2.  [Pro Git](https://git-scm.com/book/)
