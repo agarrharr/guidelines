@@ -9,7 +9,7 @@
     },
     "scripts": {
         "mdl": "markdownlint . --ignore node_modules && npm run check-links",
-        "check-links": "remark ."
+        "check-links": "remark . --frail"
     },
     "remarkConfig": {
         "plugins": [
