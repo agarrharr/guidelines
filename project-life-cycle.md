@@ -27,7 +27,7 @@ within scheduled time frames and cost estimates.<sup>1</sup>
 -   [Deployment](./deployment/README.md)
     -   [Versioning](./deployment/README.md#versioning)
     -   [Continuous integrations](./deployment/README.md#continuous-integration)
--   [Infrastructure](./Infrastructure/README.md)
+-   [Infrastructure](./infrastructure/README.md)
     -   [Amazon Web Services](./infrastructure/README.md#amazon-web-services)
     -   [Containerization](./infrastructure/README.md#containerization)
 
