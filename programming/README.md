@@ -7,16 +7,19 @@ naming conventions, etc.
 
 ## Languages
 
+- [Bash](./languages/bash/README.md)
 - [C++](./languages/cpp/README.md)
 - [C\#](./languages/csharp/README.md)
+- [CSS](./languages/css/README.md)
 - [Elixir](./languages/elixir/README.md)
 - [Go](./languages/go/README.md)
+- [HTML](./languages/html/README.md)
 - [Javascript](./languages/javascript/README.md)
+- [Kotlin](./languages/kotlin/README.md)
 - [Python](./languages/python/README.md)
 - [Restructured Text](./languages/restructuredtext/README.md)
 - [Rust](./languages/rust/README.md)
 - [Sass](./languages/sass/README.md)
-- [HTML](./languages/html/README.md)
 
 ## Frameworks and libraries
 
