@@ -23,7 +23,13 @@ naming conventions, etc.
 
 ## Frameworks and libraries
 
-- [Angular](./frameworks-and-libraries/angular/README.md)
-- [Django](./frameworks-and-libraries/django/README.md)
-- [iOS](./frameworks-and-libraries/ios/README.md)
-- [React](./frameworks-and-libraries/react/README.md)
+* [Angular](./frameworks-and-libraries/angular/README.md)
+* [Django](./frameworks-and-libraries/django/README.md)
+* [Next.js](./frameworks-and-libraries/nextjs/README.md)
+* [Phoenix](./frameworks-and-libraries/phoenix/README.md)
+* [React](./frameworks-and-libraries/react/README.md)
+
+## Mobile
+
+* [Android](./mobile/android/README.md)
+* [iOS](./mobile/ios/README.md)

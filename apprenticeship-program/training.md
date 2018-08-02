@@ -29,7 +29,7 @@ Your mentor will meet with you to present the project, explain the scope, and se
 project. We will create a gitlab repository for the project where you can commit your code. Make sure
 you have access to the private company's [gitlab](https://git.sophilabs.io/). Please set up [gilp](https://sophilabs.co/blog/gulp-and-commit-hooks-gilp)
 commit hooks for Python and for Javascript in order to ensure that your code complies with the
-[language guidelines](/programming/README.md). You can download a sample gilp ready `gulpfile.js`
+[language guidelines](../programming/README.md). You can download a sample gilp ready `gulpfile.js`
 [here](https://github.com/sophilabs/gilp/blob/master/examples/full.js) and adapt it to your needs.
 
 ### Feature work
@@ -52,18 +52,18 @@ how to make your demo as effective as possible.
 
 ## Tips
 
-* *Prioritize*: Mandatory Requirements vs Optional. Consider doing mandatory requirements first,
-  and then focusing on the optional ones if you have time.
-* *Organize*: Keep your work organized using a Trello Board, this will prevent you from getting stuck
-  and help you to focus on the most important things.
-* *Negotiate*: Any developer should be able to negotiate requirements if the scope is too big. Feel
-  free to negotiate the deadlines and requirements. Hitting deadlines and negotiating scope are common
-  software projects with a fixed timeline.
-* *Ask*: If you get stuck, ask around for help. At sophilabs we have several ways to find help when needed.
-  * Use the `/guru` slack command to find experts in a certain area. Try it in any channel
-    ![Animation showing how to type a /guru query](./guru.gif)
-  * The specfic Slack channels [#developers](https://sophilabs.slack.com/messages/developers),
-    [#python](https://sophilabs.slack.com/messages/python), or
-    [#react](https://sophilabs.slack.com/messages/react) are also great places to look for help.
-  * Ask around! We are a friendly bunch and someone will surely know or at least be able to point you
-    in the right direction.
+-   _Prioritize_: Mandatory Requirements vs Optional. Consider doing mandatory requirements first,
+    and then focusing on the optional ones if you have time.
+-   _Organize_: Keep your work organized using a Trello Board, this will prevent you from getting stuck
+    and help you to focus on the most important things.
+-   _Negotiate_: Any developer should be able to negotiate requirements if the scope is too big. Feel
+    free to negotiate the deadlines and requirements. Hitting deadlines and negotiating scope are common
+    software projects with a fixed timeline.
+-   _Ask_: If you get stuck, ask around for help. At sophilabs we have several ways to find help when needed.
+    -   Use the `/guru` slack command to find experts in a certain area. Try it in any channel
+        ![Animation showing how to type a /guru query](./guru.gif)
+    -   The specfic Slack channels [#developers](https://sophilabs.slack.com/messages/developers),
+        [#python](https://sophilabs.slack.com/messages/python), or
+        [#react](https://sophilabs.slack.com/messages/react) are also great places to look for help.
+    -   Ask around! We are a friendly bunch and someone will surely know or at least be able to point you
+        in the right direction.
