@@ -9,8 +9,8 @@
 -   [Django Girls Tutorial](https://tutorial.djangogirls.org/en/)
     -   Recommended for users that don't have programming knowledge.
 -   [Django Rest Framework](http://www.django-rest-framework.org/#tutorial)
-    -   Recommended for users that want to use Django as backend server and implement the front end in a
-        different language.
+    -   Recommended for users that want to use Django as backend server and
+        implement the front end in a different language.
 
 ### Set Up
 

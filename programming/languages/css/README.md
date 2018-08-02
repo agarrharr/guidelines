@@ -32,8 +32,8 @@
 ## Stay Updated
 
 * [CSS Animation](https://twitter.com/cssanimation)
-* [Andrey Sitnik](https://twitter.com/andreysitnik) - Author of @Autoprefixer, 
-  http://easings.net and @PostCSS.
+* [Andrey Sitnik](https://twitter.com/andreysitnik) - Author of @Autoprefixer,
+  and @PostCSS.
 * [Adam Morse](https://twitter.com/mrmrs_) - Advocate for users and open-source.
 * [CSS Commits](https://twitter.com/CSScommits) - Latest commits to @CSSWG’s
   public Mercurial repository.
