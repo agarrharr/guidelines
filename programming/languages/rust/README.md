@@ -39,10 +39,11 @@
   - [vim-cargo](https://github.com/timonv/vim-cargo) — command bindings to
     quickly run cargo stuff from vim.
   - [vim-racer](https://github.com/racer-rust/vim-racer) — allows vim to use
-    [Racer](https://github.com/rachttps://github.com/sger/RustBookser-rust/racer) for Rust code completion and
-    navigation.
+    [Racer](https://github.com/rachttps://github.com/sger/RustBookser-rust/racer)
+    for Rust code completion and navigation.
   - [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
-    [LSP](https://microsoft.github.io/language-server-protocol/) client. Implemented in Rust and supports rls out of the box.
+    [LSP](https://microsoft.github.io/language-server-protocol/) client.
+     Implemented in Rust and supports rls out of the box.
 - [Visual Studio Code](https://code.visualstudio.com/)
   - [rust-lang-nursery/rls-vscode](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
   Rust support for Visual Studio Code
@@ -53,12 +54,12 @@
 
 ### Linters
 
-- [Clippy](https://github.com/rust-lang-nursery/rust-clippy) - More than 270 
+- [Clippy](https://github.com/rust-lang-nursery/rust-clippy) - More than 270
   lints in one package
 
 ## Stay Updated
 
-- [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) - Cataloguing the Rust 
+- [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) - Cataloguing the Rust
   community's awesomeness
 - [@rustlang](https://twitter.com/rustlang) - Official Tweet account
 - [@rustconf](https://twitter.com/rustconf) - The official Rust conference.
