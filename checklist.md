@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Foster continuous improvement within sophilabs, by promoting a self-critical culture that thrives on
+Foster continuous improvement within sophilabs, by promoting a self-critical
+culture that thrives on
 welcoming and adapting to change. To do so, the Squad operates through basic quality tools (such as
 customized checklists), allowing each project a thorough process-alignment analysis against best
 practices for specific knowledge-domains like Security, Software Design, Methodologies, etc.
@@ -95,8 +96,9 @@ workshops"
         introducing bugs in future releases. Examples of how to write unit tests can be found in the
         [Unit testing](./testing/README.md#unit-testing) section.
 -   Are you actively writing and running load tests in your project?
-    -   Load tests are important guarantee good performance in your application. You can learn about it
-        in the [Load Testing](./testing/README.md#load-and-performance-testing) section.
+    -   Load tests are important guarantee good performance in your application.
+        You can learn about it in the [Load Testing](./testing/README.md#load-and-performance-testing)
+        section.
 
 ### Coverage
 
@@ -105,9 +107,9 @@ workshops"
         There are several options depending on your technology stack, you can found some in the
         [Unit testing](./testing/README.md#unit-testing) section.
 -   Do you run code coverage measurements automatically for each merge request?
-    -   Leveraging testing tasks through your continuous integration process is the best way to detect bugs
-        prior releases. Take a look at the [Testing](./testing/README.md) section to know more of the available
-        types of test you can use.
+    -   Leveraging testing tasks through your continuous integration process is
+        the best way to detect bugs prior releases. Take a look at the [Testing](./testing/README.md)
+        section to know more of the available types of test you can use.
 
 ### Testing in CI
 
@@ -117,8 +119,8 @@ workshops"
         of untested code. Take a look at the [Testing](./testing/README.md) section to know more of the
         available types of test you can use.
 -   Is your testing setup written inside your project's _manifiesto file_, and is it being actively updated?
-    -   Having a testing section in your project's manifesto makes it easier to share common knowledge and
-        practices, especially when on-boarding new developers into the project.
+    -   Having a testing section in your project's manifesto makes it easier to
+        share common knowledge and practices, especially when on-boarding new developers into the project.
 
 ## Deployment Checklist
 
@@ -132,8 +134,9 @@ workshops"
         system.
         Take a look at [Containerization](./infrastructure/README.md#containerization).
 -   Are you using continuous integration (CI)?
-    -   Using Continuous Integration helps you customize and automate deployments tasks, streamlining the
-        whole process and reducing potential downtime. To learn more take a look at [CI](./deployment/README.md#continuous-integration).
+    -   Using Continuous Integration helps you customize and automate
+        deployments tasks, streamlining the whole process and reducing potential
+        downtime. To learn more take a look at [CI](./deployment/README.md#continuous-integration).
 -   Are you using a staging server for development branch releases?
     -   Set up a staging server to improve the project's visibility and the overall development process.
 -   Does your project have a rollback plan?
@@ -162,12 +165,12 @@ workshops"
     -   You can take a look at our [Code Analysis Guidelines](./code-analysis/README.md) for ways to
         verify the code style in your project.
 -   Do commit messages follow a defined format respected by all your team members?
-    -   You can take a look at our [commit hooks section](./code-analysis/README.md#commit-hooks) to learn
-        how to verify your commit messages.
+    -   You can take a look at our [commit hooks section](./code-analysis/README.md#commit-hooks)
+        to learn how to verify your commit messages.
 -   Does your project have an automated way to verify the compliance of code guidelines and commit
     messages?
-    -   You can take a look at our [commit hooks section](./code-analysis/README.md#commit-hooks) to learn
-        how to automate the execution of these validations.
+    -   You can take a look at our [commit hooks section](./code-analysis/README.md#commit-hooks)
+        to learn how to automate the execution of these validations.
 
 ### Branching Strategy
 
@@ -205,8 +208,8 @@ workshops"
 -   Is "Definition of Done" (DoD) agreed by all?
     -   If exists but unclear (or not visible to all) make sure to refine it and make it visible to the
         whole team.
-        -   Schedule a session with a dynamic aid for PO and dev team to agree on a clear Definition of
-            Done.
+        -   Schedule a session with a dynamic aid for PO and dev team to agree
+            on a clear Definition of Done.
 -   Does the team respect DoD?
     -   Meet with the dev team to assess the reason behind DoD non-compliance. Include PO in dynamics
         when required to realign both parties.
@@ -221,8 +224,9 @@ workshops"
 -   Is there an Agile Master?
     -   Work with management, PO & client/stakeholders to appoint an appropriate agile master
 -   Does the team comply with agile practices & processes?
-    -   Ask agile master to engage in the team's activities; agile master should focus on inspecting how
-        work is done and identifying areas for improvement.
+    -   Ask agile master to engage in the team's activities; agile master should
+        focus on inspecting how work is done and identifying areas for
+        improvement.
         -   Make sure the agile master is appropriately trained and seasoned in agile practices.
 -   Does the team help to achieve goals by removing impediments?
     -   The agile master should be invested with the team and participate in team's ceremonies as much

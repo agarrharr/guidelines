@@ -59,11 +59,12 @@ how to make your demo as effective as possible.
 -   _Negotiate_: Any developer should be able to negotiate requirements if the scope is too big. Feel
     free to negotiate the deadlines and requirements. Hitting deadlines and negotiating scope are common
     software projects with a fixed timeline.
--   _Ask_: If you get stuck, ask around for help. At sophilabs we have several ways to find help when needed.
+-   _Ask_: If you get stuck, ask around for help. At sophilabs we have several ways to find help
+        when needed.
     -   Use the `/guru` slack command to find experts in a certain area. Try it in any channel
         ![Animation showing how to type a /guru query](./guru.gif)
     -   The specfic Slack channels [#developers](https://sophilabs.slack.com/messages/developers),
         [#python](https://sophilabs.slack.com/messages/python), or
         [#react](https://sophilabs.slack.com/messages/react) are also great places to look for help.
-    -   Ask around! We are a friendly bunch and someone will surely know or at least be able to point you
-        in the right direction.
+    -   Ask around! We are a friendly bunch and someone will surely know or at
+        least be able to point you in the right direction.

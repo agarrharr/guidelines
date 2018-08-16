@@ -1,5 +1,7 @@
 # HTML Guidelines
 
+![HTML5 logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png)
+
 ## Learning Resources
 
 - ["Practical HTML5"](https://app.pluralsight.com/library/courses/practical-html5/)
@@ -9,17 +11,9 @@
 
 ## Coding Style
 
-### Rules
-
-- Use 2 spaces for indentation
-- Use double quotes for tag attribute values
-- Use the id attribute only to identify a node in the DOM, don't use
-  it for styling purposes
-- Use HTML 5 tag elements extensively
-- Don't use tables for layout design purposes
-- Use Flexbox extensively
-- Run a HTML linter using commit hooks
-
+We recommend to be consistent and future proof. In that sense we
+recommend you to follow [Google's HTML Style Guid](https://google.github.io/styleguide/htmlcssguide.html)
+  
 ## Linting
 
 - [HTMLHint](http://htmlhint.com/)
