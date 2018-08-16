@@ -39,6 +39,7 @@ compiled languages
 
 - [Visual Studio 2017 Community](https://www.visualstudio.com/vs/) or newer.
   Great C++ support out of the box
+- [XCode](https://developer.apple.com/xcode/) If you are in Mac
 - [emacs](https://www.gnu.org/software/emacs/)
 
 ## Coding Style
