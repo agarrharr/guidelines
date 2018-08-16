@@ -13,7 +13,7 @@
 
 ## IDEs
 
-- [Visual Studio IDE](https://www.visualstudio.com/vs/) if you are in Windows
+- [Visual Studio IDE](https://www.visualstudio.com/vs/) if you are in Windows or Mac
 - [MonoDevelop](https://www.monodevelop.com/) for other platforms
 
 ## Coding Style
