@@ -26,7 +26,7 @@ with your DM to introduce your first project.
 * [First Day](./first-day.md)
 * [Self-Learning](./self-learning.md) (2-3 weeks)
 * [Training Project](./training.md) (2 weeks)
-* [First Client Project](./client-project.md) (3-4 weeks)
+* [First Client Project](./client-project.md) (7-8 weeks)
 
 ## Final words
 
